@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    color: #19345E;
+    /* font: bold; */
+}
+
+/* navbar mulai */
+.navbar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    opacity: 1;
+}
+
+.logoAlterra {
+    width: 110px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F47522;
+}
+
+.linkOren:hover {
+    color: #F47522;
+}
+
+.tombolContact {
+    width: 130px;
+    color: white;
+    background: #F47522 0% 0% no-repeat padding-box;
+    border: 1px solid #F47522;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.tombolContact:hover {
+    color: white;
+    background-color: #19345E;
+}
+
+li {
+    padding-right: 25px;
+}
+
+/* navbar selesai */
+
+/* content mulai */
+.textOren {
+    color: #F47522;
+}
+
+.iconMini {
+    width: 15px;
+    margin-left: 15px;
+}
+
+.iconMiniSocial {
+    width: 25px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.iconMiniSocial2 {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.tombolKirim {
+    width: 230px;
+    height: 40px;
+    border: #F47522;
+    color: white;
+    background: #F47522 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.tombolKirim:hover {
+    color: white;
+    background-color: #19345E;
+}
+
+.tombolKirim img {
+    width: 20px;
+    align-items: center;
+}
+
+/* content selesai */
+
+/* footer mulai */
+.footer {
+    margin-top: 15%;
+    padding-top: 10px;
+    height: 141px;
+    background: #19345E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    padding-top: 25px;
+}
+
+.sosmed img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.footer .copyright {
+    color: white;
+}
+
+/* footer selesai */

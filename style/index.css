@@ -21,6 +21,10 @@
     color: #F47522;
 }
 
+.linkOren:hover {
+    color: #F47522;
+}
+
 .tombolContact {
     width: 130px;
     color: #F47522;
@@ -82,7 +86,7 @@ h5.textOren {
     background-color: #19345E;
 }
 
-.iconTombol {
+.tombolAboutTeam img {
     width: 20px;
     align-items: center;
 }
@@ -163,10 +167,6 @@ h5.textOren {
 
 .checkNow {
     width: 65%;
-}
-
-.linkOren:hover {
-    color: #F47522;
 }
 
 /* content selesai */
