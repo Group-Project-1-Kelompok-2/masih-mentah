@@ -6,6 +6,7 @@
     /* font: bold; */
 }
 
+/* navbar mulai */
 .navbar {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #C1C3C736;
@@ -14,7 +15,10 @@
 
 .logoAlterra {
     width: 110px;
-    /* height: 59px; */
+}
+
+.navbar-nav .nav-link.active {
+    color: #F47522;
 }
 
 .tombolContact {
@@ -35,6 +39,9 @@ li {
     padding-right: 25px;
 }
 
+/* navbar selesai */
+
+/* content mulai */
 .iniContainerContent1 {
     padding: 200px 0px;
     background: #EDF6FF 0% 0% no-repeat padding-box;
@@ -53,6 +60,10 @@ li {
 }
 
 span.textOren {
+    color: #F47522;
+}
+
+h5.textOren {
     color: #F47522;
 }
 
@@ -77,7 +88,7 @@ span.textOren {
 }
 
 .iniContentRounded {
-    padding: 40px 0px;
+    padding: 30px 0px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 100px;
@@ -89,20 +100,98 @@ span.textOren {
     border-radius: 50%;
     opacity: 1;
     width: 40px;
+    padding: 5px;
 }
 
-.bundar1 {
-    width: 25px;
+.garisVertical {
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
 }
 
+.image-container1 {
+    position: relative;
+    display: inline-block;
+}
 
+.image-container1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container1 .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #19345E;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+}
+
+.image-container1 .overlay1 h1 {
+    margin: 0;
+}
+
+.image-container1 .overlay1 p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+.image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container2 img {
+    width: 200px;
+    height: 292px;
+}
+
+.iniGambarContent2 .col img {
+    width: 225px;
+    height: 265px;
+}
+
+.checkNow {
+    width: 65%;
+}
+
+.linkOren:hover {
+    color: #F47522;
+}
+
+/* content selesai */
 
 /* footer mulai */
 .footer {
     margin-top: 10%;
+    padding-top: 10px;
     height: 141px;
     background: #19345E 0% 0% no-repeat padding-box;
     opacity: 1;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    padding-top: 25px;
+}
+
+.sosmed img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.footer .copyright {
     color: white;
 }
 
