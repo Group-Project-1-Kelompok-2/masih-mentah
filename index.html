@@ -1,122 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style/index.css" />
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
     <!-- navbar mulai -->
     <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/logo-ALTA@2x.png" alt="ALTERRA" class="logoAlterra" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button class="btn tombolContact" type="">Contact</button>
-          </form>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo-ALTA@2x.png" alt="ALTERRA" class="logoAlterra">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link linkOren active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkOren" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkOren" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkOren" href="#">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="contact.html" class="btn tombolContact" role="button">Contact</a>
+                </form>
+            </div>
         </div>
-      </div>
     </nav>
     <!-- navbar selesai -->
 
     <!-- content mulai -->
     <div class="container-fluid iniContainerContent1">
-      <div class="container iniContainerDalam1">
-        <div class="row align-items-center g-0">
-          <div class="col text-center iniGambarGroup">
-            <img src="./assets/Group 16136@2x@2x.png" alt="group" class="img-fluid" />
-          </div>
-          <div class="col">
-            <h3>HI THERE !</h3>
-            <h1>We are an <span class="textOren">Alterra Academy.</span></h1>
-            <div class="row">
-              <div class="col-10">
-                <p>Alterra Academy Full-stack Program is Coding Bootcamp which transform you being professional Software Engineer within 3 months.</p>
-                <button class="btn tombolAboutTeam" type="submit">
-                  <img src="./assets/sport-team.png" alt="group" class="img-fluid iconTombol" />
-                  More About Team
-                </button>
-              </div>
+        <div class="container iniContainerDalam1">
+            <div class="row align-items-center g-0">
+                <div class="col text-center iniGambarGroup">
+                    <img src="./assets/Group 16136@2x@2x.png" alt="group" class="img-fluid">
+                </div>
+                <div class="col">
+                    <h3>HI THERE !</h3>
+                    <h1>We are an <span class="textOren">Alterra Academy.</span></h1>
+                    <div class="row">
+                        <div class="col-10">
+                            <p>
+                                Alterra Academy Full-stack Program is Coding Bootcamp which transform you being
+                                professional Software Engineer within 3 months.
+                            </p>
+                            <a href="about.html" class="btn tombolAboutTeam" role="button">
+                                <img src="./assets/sport-team.png" alt="group" class="img-fluid">
+                                More About Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <div class="container-fluid iniContainerContent2">
-      <div class="container iniContainerDalam2 text-center">
-        <div class="row align-items-center">
-          <div class="col-md-10 offset-md-1 iniContentRounded">
+        <div class="container iniContainerDalam2 text-center">
             <div class="row align-items-center">
-              <div class="col">
-                <!-- <table class="">
-                                <tbody>
-                                    <tr>
-                                        <td rowspan="2">
-                                            <span class="bundar">
-                                                <img src="./assets/reward.png" alt="reward">
-                                            </span>
-                                        </td>
-                                      <td>4 Years Job</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Experience</td>
-                                    </tr>
-                                </tbody>
-                            </table> -->
-                <span class="bundar p-2">
-                  <img src="./assets/reward.png" alt="reward" class="bundar1" height="40px" width="40px" />
-                </span>
-              </div>
-              <div class="col border">One of three columns</div>
-              <div class="col">One of three columns</div>
+                <div class="col-md-10 offset-md-1 iniContentRounded">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <ul class="list-inline bundar">
+                                <li class="list-inline-item">
+                                    <img src="./assets/reward.png" alt="reward" class="img-fluid">
+                                </li>
+                                <li class="list-inline-item sampingBundar">
+                                    4 Years Job
+                                    <br>
+                                    Experience
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col garisVertical">
+                            <ul class="list-inline bundar">
+                                <li class="list-inline-item">
+                                    <img src="./assets/project.png" alt="reward" class="img-fluid">
+                                </li>
+                                <li class="list-inline-item sampingBundar">
+                                    500+ Projects
+                                    <br>
+                                    Completed
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-inline bundar">
+                                <li class="list-inline-item">
+                                    <img src="./assets/support.png" alt="reward" class="img-fluid">
+                                </li>
+                                <li class="list-inline-item sampingBundar">
+                                    Support
+                                    <br>
+                                    Online 24/7
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="container mt-5">
+                <h1><span class="textOren">-</span> About <span class="textOren">-</span></h1>
+            </div>
         </div>
-      </div>
+    </div>
+    <div class="container-fluid text-center mt-5 g-0 p-0 m-0">
+        <div class="row">
+            <div class="col">
+                <div class="image-container1">
+                    <img src="./assets/bg-people@2x.png" class="img-fluid" alt="content3">
+                    <div class="overlay1">
+                        <h1>Alterra is For Everyone</h1>
+                        <p>
+                            As a brandnew Catalyst, we are aiming to become one of the best tech companies in Indonesia.
+                            Joining the tech industry in Indonesia since 2015 under the name of Sepulsa, we have evolved
+                            as a B2B tech company in 4 years providing various services such as Bill Payment Aggregator,
+                            Distribution Network, Promotion Platform, and Tech Academy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 g-0 p-0 m-0">
+        <div class="row">
+            <div class="col-2">
+                <div class="image-container2">
+                    <img src="./assets/ornament_batik.png" class="img-fluid" alt="content4">
+                </div>
+            </div>
+            <div class="col-8 text-center">
+                <h1><span class="textOren">-</span> Meet Our Team <span class="textOren">-</span></h1>
+                <p class="mb-5">Our Team Consists Only of the Best Talents</p>
+                <div class="row iniGambarContent2">
+                    <div class="col p-4" style="width: 18rem;">
+                        <img src="./assets/shutterstock_796346011@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title textOren">Aulia Rahmani</h5>
+                            <p class="card-text">
+                                UI UX Designer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col" style="width: 18rem;">
+                        <img src="./assets/shutterstock_796346011@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title textOren">Cindy Felita</h5>
+                            <p class="card-text">
+                                Backend Development
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col p-4" style="width: 18rem;">
+                        <img src="./assets/shutterstock_796346011@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title textOren">Winda Pramesti</h5>
+                            <p class="card-text">
+                                Frontend Development
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container checkNow mt-4 text-end">
+            <a class="icon-link icon-link-hover linkOren" href="#">
+                Check Now
+                <svg class="bi" aria-hidden="false">
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 g-0 p-0 m-0">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <h1><span class="textOren">-</span> Latest Blogs <span class="textOren">-</span></h1>
+                <div class="card-group text-start gap-3 mt-5 artikel">
+                    <div class="card">
+                        <img src="./assets/img_article.jpg" class="card-img-top" alt="artikel">
+                        <div class="card-body">
+                            <h5 class="card-title">CREATE A WORDPRESS THEME FROM SCRATCH</h5>
+                            <div class="row">
+                                <p class="card-text col"><small class="text-body-secondary">
+                                        Larry Stark
+                                    </small>
+                                </p>
+                                <p class="card-text col text-end"><small class="text-body-secondary">
+                                        7 Januari 2020
+                                    </small>
+                                </p>
+                            </div>
+                            <p class="card-text">
+                                Quick six blind smart out burst. Perfectly on furniture dejection determine my
+                                depending an to. Add short water court fat…
+                            </p>
+                        </div>
+                        <a href="#" class="text-end linkOren">Read More</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img_article.jpg" class="card-img-top" alt="artikel">
+                        <div class="card-body">
+                            <h5 class="card-title">CREATE A WORDPRESS THEME FROM SCRATCH</h5>
+                            <div class="row">
+                                <p class="card-text col"><small class="text-body-secondary">
+                                        Larry Stark
+                                    </small>
+                                </p>
+                                <p class="card-text col text-end"><small class="text-body-secondary">
+                                        7 Januari 2020
+                                    </small>
+                                </p>
+                            </div>
+                            <p class="card-text">
+                                Quick six blind smart out burst. Perfectly on furniture dejection determine my
+                                depending an to. Add short water court fat…
+                            </p>
+                        </div>
+                        <a href="#" class="text-end linkOren">Read More</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img_article.jpg" class="card-img-top" alt="artikel">
+                        <div class="card-body">
+                            <h5 class="card-title">CREATE A WORDPRESS THEME FROM SCRATCH</h5>
+                            <div class="row">
+                                <p class="card-text col"><small class="text-body-secondary">
+                                        Larry Stark
+                                    </small>
+                                </p>
+                                <p class="card-text col text-end"><small class="text-body-secondary">
+                                        7 Januari 2020
+                                    </small>
+                                </p>
+                            </div>
+                            <p class="card-text">
+                                Quick six blind smart out burst. Perfectly on furniture dejection determine my
+                                depending an to. Add short water court fat…
+                            </p>
+                        </div>
+                        <a href="#" class="text-end linkOren">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- content selesai -->
 
     <!-- footer mulai -->
     <footer class="container-fluid footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 p-4 border">
-            <img src="./assets/logo-ALTA-v2@2x.png" alt="ALTERRA" class="logoAlterra" />
-          </div>
-          <div class="col-4 border">
-            <p>Social Media</p>
-          </div>
-          <div class="col-4 border"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col p-4">
+                    <img src="./assets/logo-ALTA-v2@2x.png" alt="ALTERRA" class="logoAlterra">
+                </div>
+                <div class="col text-center">
+                    <div class="sosmed">
+                        <p>Social Media</p>
+                        <img src="./assets/ic_fb.png" alt="logo facebook">
+                        <img src="./assets/ic_twitter.png" alt="ic_twitter">
+                        <img src="./assets/ic_ig.png" alt="instagaram">
+                        <img src="./assets/ic_linkedin.png" alt="linkedin">
+                    </div>
+                </div>
+                <div class="col mt-5 text-end copyright">
+                    Copyright © 2019 Alterra
+                </div>
+            </div>
         </div>
-      </div>
+        </div>
     </footer>
     <!-- footer selesai -->
 
     <!-- cdn bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
