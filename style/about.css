@@ -21,7 +21,7 @@ li {
   font-size: 20px;
 }
 .education-list li::marker {
-  font-size: 40px;
+  font-size: 25px;
 }
 .logoAlterra {
   width: 150px;
