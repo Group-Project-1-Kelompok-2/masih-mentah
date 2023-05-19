@@ -131,3 +131,25 @@ span.textOren {
 }
 
 /* footer selesai */
+
+/* membuat responsive */
+/* Untuk ponsel dengan lebar layar maksimal 480px */
+@media (max-width: 480px) {
+  /* Aturan CSS untuk ponsel */
+}
+body {
+  margin: auto;
+}
+.navbar {
+  width: 100%;
+}
+
+/* Untuk tablet dengan lebar layar antara 481px dan 1024px */
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Aturan CSS untuk tablet */
+}
+
+/* Untuk laptop dengan lebar layar minimal 1025px */
+@media (min-width: 1025px) {
+  /* Aturan CSS untuk laptop */
+}
