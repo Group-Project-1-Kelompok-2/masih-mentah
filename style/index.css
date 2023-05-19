@@ -165,8 +165,28 @@ h5.textOren {
     height: 265px;
 }
 
-.checkNow {
-    width: 65%;
+.iniGambarContent2 .overlay2oren {
+    position: absolute;
+    width: 225px;
+    height: 265px;
+    border: 10px solid #F47522;
+    margin-left: 3%;
+    margin-top: 1.3%;
+}
+
+.iniGambarContent2 .overlay2biru {
+    position: absolute;
+    width: 225px;
+    height: 265px;
+    border: 10px solid #19345E;
+    margin-left: 3%;
+    margin-top: 1.3%;
+}
+
+.checkNow a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #19345E;
 }
 
 /* content selesai */
@@ -196,3 +216,5 @@ h5.textOren {
 }
 
 /* footer selesai */
+
+/* --- desain responsif --- */
