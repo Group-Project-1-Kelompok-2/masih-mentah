@@ -1,142 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
 
 * {
-    font-family: 'Poppins';
-    color: #19345E;
-    /* font: bold; */
+  font-family: "Poppins";
+  color: #19345e;
+  /* font: bold; */
 }
 
 /* navbar mulai */
 .navbar {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #C1C3C736;
-    opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #c1c3c736;
+  opacity: 1;
 }
 
 .logoAlterra {
-    width: 110px;
+  width: 110px;
 }
 
 .navbar-nav .nav-link.active {
-    color: #F47522;
+  color: #f47522;
 }
 
 .linkOren:hover {
-    color: #F47522;
+  color: #f47522;
 }
 
 .tombolContact {
-    width: 130px;
-    color: white;
-    background: #F47522 0% 0% no-repeat padding-box;
-    border: 1px solid #F47522;
-    border-radius: 50px;
-    opacity: 1;
+  width: 130px;
+  color: white;
+  background: #f47522 0% 0% no-repeat padding-box;
+  border: 1px solid #f47522;
+  border-radius: 50px;
+  opacity: 1;
 }
 
 .tombolContact:hover {
-    color: white;
-    background-color: #19345E;
+  color: white;
+  background-color: #19345e;
 }
 
 li {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 /* navbar selesai */
 
 /* content mulai */
 .textOren {
-    color: #F47522;
+  color: #f47522;
 }
 
 .iconMini {
-    width: 15px;
-    margin-left: 15px;
+  width: 15px;
+  margin-left: 15px;
 }
 
 .iconMiniSocial {
-    width: 25px;
-    margin-left: 15px;
-    margin-right: 5px;
+  width: 25px;
+  margin-left: 15px;
+  margin-right: 5px;
 }
 
 .iconMiniSocial2 {
-    width: 25px;
-    margin-right: 5px;
+  width: 25px;
+  margin-right: 5px;
 }
 
 .tombolKirim {
-    width: 230px;
-    height: 40px;
-    border: #F47522;
-    color: white;
-    background: #F47522 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 50px;
-    opacity: 1;
+  width: 230px;
+  height: 40px;
+  border: #f47522;
+  color: white;
+  background: #f47522 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50px;
+  opacity: 1;
 }
 
 .tombolKirim:hover {
-    color: white;
-    background-color: #19345E;
+  color: white;
+  background-color: #19345e;
 }
 
 .tombolKirim img {
-    width: 20px;
-    align-items: center;
+  width: 20px;
+  align-items: center;
 }
 
 /* content selesai */
 
 /* footer mulai */
 .footer {
-    margin-top: 15%;
-    padding-top: 10px;
-    height: 141px;
-    background: #19345E 0% 0% no-repeat padding-box;
-    opacity: 1;
-    color: white;
+  margin-top: 15%;
+  padding-top: 10px;
+  height: 141px;
+  background: #19345e 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: white;
 }
 
 .footer p {
-    color: white;
-    padding-top: 25px;
+  color: white;
+  padding-top: 25px;
 }
 
 .sosmed img {
-    width: 20px;
-    margin-left: 5px;
+  width: 20px;
+  margin-left: 5px;
 }
 
 .footer .copyright {
-    color: white;
+  color: white;
 }
 
 /* footer selesai */
 
 /* --- desain responsif --- */
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 28px;
-    }
+  h1 {
+    font-size: 28px;
+  }
 
-    p,
-    .pt-4 {
-        font-size: 14px;
-    }
+  p,
+  .pt-4 {
+    font-size: 14px;
+  }
 
-    .container-fluid .col-8 .mb-3.form-label {
-        font-size: 10px;
-    }
+  .container-fluid .col-8 .mb-3.form-label {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 415px) {
-    .text-start {
-        display: grid;
-    }
+  .text-start {
+    display: grid;
+  }
 
-    .col-4, .col-8 {
-        width: 100%;
-    }
+  .col-4,
+  .col-8 {
+    width: 100%;
+  }
 }
