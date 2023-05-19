@@ -131,12 +131,13 @@ li {
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
     .text-start {
         display: grid;
     }
 
-    .col-4, .col-8 {
+    .col-4,
+    .col-8 {
         width: 100%;
     }
 }

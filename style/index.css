@@ -218,3 +218,21 @@ h5.textOren {
 /* footer selesai */
 
 /* --- desain responsif --- */
+@media screen and (max-width: 769px) {
+    .iniContainerContent1 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .iniGambarGroup {
+        padding-right: 5%;
+    }
+
+    .bundarKiri {
+        margin-left: 30%;
+    }
+
+    .bundarTengah {
+        margin-left: 15%;
+    }
+}
